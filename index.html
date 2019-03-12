@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>google search</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./js/index.js"></script>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <div class="container mt-3">
+    <div class="form-group row">
+      <label class="col-md-2 col-form-label" for="keyword">搜尋關鍵字</label>
+      <div class="col-md-8">
+          <input type="text" id='keyword' class="form-control" placeholder="請輸入關鍵字">
+      </div>
+      <div class="col-md-2">
+        <button type="button" id="submit" class="btn btn-primary">送出</button>
+      </div>
+    </div>
+    <table class="table table-hover">
+      <thead>
+        <tr class="d-flex">
+          <th class="col-md-2">關鍵字</th>
+          <th class="col-md-4">廣告標題</th>
+          <th class="col-md-4">廣告文案</th>
+          <th class="col-md-2">頁數與排序</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+  </div>
+</body>
+
+</html>
